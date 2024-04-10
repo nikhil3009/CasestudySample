@@ -1,0 +1,34 @@
+<!-- @format -->
+
+Test Cases for User-Centric Blog Platform
+Signup and Data Collection Test Cases
+TC1: Signup with Basic Information
+Objective: Verify that users can sign up using basic information.
+Steps: Navigate to the signup page, fill in the username and password fields, submit the form.
+Expected Result: User account is created successfully.
+
+TC2: Signup with Date of Birth
+Objective: Ensure the application collects the date of birth during signup.
+Steps: Complete the signup form including the date of birth field, submit the form.
+Expected Result: User account is created with the date of birth recorded.
+
+TC3: Signup with Gender Identification
+Objective: Check if the application collects gender identification.
+Steps: Fill out the signup form including the gender identification field, submit the form.
+Expected Result: User account is created with gender identification data stored.
+
+TC4: Signup with Favorite Genre
+Objective: Confirm that favorite genre information is collected during signup.
+Steps: During signup, specify a favorite genre, then submit the form.
+Expected Result: User account is created, and favorite genre data is used for content personalization.
+Signin and User Dashboard Test Cases
+
+TC5: User Signin
+Objective: Test the signin functionality with correct credentials.
+Steps: Enter valid username and password on the signin page, submit the form.
+Expected Result: User is successfully logged in and redirected to the personalized content dashboard.
+
+TC6: Personalized Content Display
+Objective: Ensure the dashboard displays content personalized based on the user's favorite genre.
+Steps: Log in and observe the content displayed on the dashboard.
+Expected Result: Content matching the user's favorite genre preference is displayed.

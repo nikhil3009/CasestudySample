@@ -1,0 +1,64 @@
+<!-- @format -->
+
+Test Cases for User-Centric Blog Platform
+Signup and Data Collection Test Cases
+
+TC1: Signup with Basic Information
+Objective: Verify that users can sign up using basic information.
+Steps: Navigate to the signup page, fill in the username and password fields, submit the form.
+Expected Result: User account is created successfully.
+
+
+TC2: Signup with Gender Identification
+Objective: Check if the application collects gender identification.
+Steps: Fill out the signup form including the gender identification field, submit the form.
+Expected Result: User account is created with gender identification data stored.
+
+TC3: Signup with Favorite Genre
+Objective: Confirm that favorite genre information is collected during signup.
+Steps: During signup, specify a favorite genre, then submit the form.
+Expected Result: User account is created, and favorite genre data is used for content personalization.
+Signin and User Dashboard Test Cases
+
+TC4: User Signin
+Objective: Test the signin functionality with correct credentials.
+Steps: Enter valid username and password on the signin page, submit the form.
+Expected Result: User is successfully logged in and redirected to the personalized content dashboard.
+
+TC5: Personalized Content Display
+Objective: Ensure the dashboard displays content personalized based on the user's favorite genre.
+Steps: Log in and observe the content displayed on the dashboard.
+Expected Result: Content matching the user's favorite genre preference is displayed.
+
+TC6:Data Protection and Security.
+Objective: Test the details that can be viewed of other users.
+
+TC7: Age Verification During Signup
+Objective: Verify that the signup process includes a checkbox to confirm if the user is over the age of 21.
+Steps: Navigate to the signup page, fill in the necessary fields, ensure to check the "Are you over the age of 21?" checkbox, submit the form.
+Expected Result: User account is created successfully with a record that the user is over the age of 21.
+
+
+TC8: Verify Removal of Date of Birth Field
+Objective: Ensure that the date of birth field is no longer part of the signup form.
+Steps: Access the signup page and verify that the date of birth field is not present.
+Expected Result: The date of birth field should not be visible on the signup form.
+
+
+TC9: Collecting User's Race During Signup
+Objective: Verify that users can select their race from a dropdown menu during the signup process.
+Steps:
+Navigate to the signup page.
+Fill in all required fields.
+Select an option from the "Race" dropdown menu.
+Submit the form.
+Expected Result: User account is created successfully with the race information recorded accurately
+
+TC10: User Consent to Terms and Conditions
+Objective: Ensure that the user can give consent to terms and conditions using a checkbox during the signup process.
+Steps:
+Navigate to the signup page.
+Fill in all required fields.
+Check the box indicating consent to the terms and conditions.
+Submit the form.
+Expected Result: User account is created successfully, and the consent to the terms and conditions is recorded in the user’s profile data.

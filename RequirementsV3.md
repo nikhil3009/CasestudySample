@@ -18,9 +18,11 @@ Custom Reads is designed to offer a personalized reading experience to users by 
 - **Signup Page**: Users should be able to create a new account by providing the following information:
   - **Username**: A unique identifier for the user account.
   - **Password**: A secure password for account access.
-  - **Date of Birth**:Implement a feild of type date to collect date of birth of user in order ensure content appropriateness based on age.
+  - **Check age of user is above or below 21**:Change the collection date of birth of user to check whether the user is above or below the age of 21 now add a checkbox to ask user whether user is above or below age of 21.
   - **Gender Identification**: Optional field for users who wish to provide this information.
   - **Favorite Genre**: A field with the placeholder "Favorite Genre (to personalize your experience)" for users to specify their content preferences.
+  - **Race of user**:Implement a dropdown to collect the race of the user which is required for future business needs.
+  - **User Consent for terms and conditions**:Implement a checkbox with label "I agree to the terms and conditions" to take user's consent on how the data is being processed.
   - The signup process must validate the uniqueness of the username and enforce password complexity requirements to ensure account security.
   - Upon successful account creation, users should be automatically logged in and redirected to their personalized content dashboard.
 

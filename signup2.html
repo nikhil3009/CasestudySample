@@ -7,7 +7,7 @@
 		<title>Sign Up</title>
 		<link
 			rel="stylesheet"
-			href="styles.css" />
+			href="styles2.css" />
 	</head>
 	<body>
 		<div class="container">
@@ -23,12 +23,13 @@
 					id="password"
 					placeholder="Password"
 					required />
-
-				<input
-					type="date"
-					id="dateOfBirth"
-					placeholder="Date of Birth"
-					required />
+				<div class="age-verification">
+					<label for="over21">Are you over the age of 21?</label>
+					<input
+						type="checkbox"
+						id="over21"
+						required />
+				</div>
 				<input
 					type="text"
 					id="gender"
@@ -38,15 +39,7 @@
 					type="text"
 					id="favoriteGenre"
 					placeholder="Favorite Genre (to personalize your experience)"
-					required /><label>
-					<input
-						type="checkbox"
-						id="dataUseConsent"
-						required />
-					I agree to the <a href="privacy-policy.html">Privacy Policy</a>,
-					including the use of my personal data for personalized
-					recommendations.
-				</label>
+					required />
 				<button type="submit">Sign Up</button>
 			</form>
 		</div>

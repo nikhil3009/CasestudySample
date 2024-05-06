@@ -47,3 +47,17 @@ button {
 button:hover {
 	background-color: #0056b3; /* Darker shade of blue on hover */
 }
+select {
+	width: 100%; /* Makes the select box the same width as input fields */
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer; /* Indicates that the select box is clickable */
+}
+
+.consent {
+	display: flex;
+	align-items: center; /* Aligns the checkbox and label vertically */
+	gap: 10px; /* Adds space between the checkbox and label */
+}

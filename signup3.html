@@ -1,0 +1,68 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Sign Up</title>
+		<link
+			rel="stylesheet"
+			href="styles2.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h2>Sign Up</h2>
+			<form id="signupForm">
+				<input
+					type="text"
+					id="username"
+					placeholder="Username"
+					required />
+				<input
+					type="password"
+					id="password"
+					placeholder="Password"
+					required />
+				<div class="age-verification">
+					<label for="over21">Are you over the age of 21?</label>
+					<input
+						type="checkbox"
+						id="over21"
+						required />
+				</div>
+				<input
+					type="text"
+					id="gender"
+					placeholder="Gender Identification"
+					required />
+				<label for="race">Race:</label>
+				<select
+					id="race"
+					required>
+					<option value="">Please select</option>
+					<option value="Asian">Asian</option>
+					<option value="Black/African">Black/African</option>
+					<option value="Hispanic/Latinx">Hispanic/Latinx</option>
+					<option value="White">White</option>
+					<option value="Mixed">Mixed</option>
+					<option value="Other">Other</option>
+				</select>
+				<input
+					type="text"
+					id="favoriteGenre"
+					placeholder="Favorite Genre (to personalize your experience)"
+					required />
+				<div class="consent">
+					<input
+						type="checkbox"
+						id="consent"
+						required />
+					<label for="consent">I agree to the terms and conditions.</label>
+				</div>
+
+				<button type="submit">Sign Up</button>
+			</form>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
